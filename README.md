@@ -30,7 +30,7 @@ Pointers: next and prev pointers to navigate forward and backward through the li
 This structure allows efficient insertion and deletion of book records, as well as bidirectional traversal for flexible operations.
 
 File Management
-Book records are saved and loaded from a file using a simple CSV format. Each book record is stored as a line in the file with the following fields separated by commas:
+Book records are saved and loaded from a text file. Each book record is stored as a line in the file with the following fields separated by commas:
 
 BookID (integer)
 Title (string)
