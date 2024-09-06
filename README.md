@@ -4,19 +4,29 @@ The Library Management System (LMS) is a console-based application designed to m
 
 Features
 Add Book: Add new books to the library with details such as Title, Author, ISBN, Publication Year, and Borrowed Status.
+
 View Books: Display a list of all books in the library.
+
 Delete Book: Remove books from the library by specifying the Book ID.
+
 Search Books: Search for books based on Title, Author, ISBN, or Book ID.
+
 Update Books: Modify the details of existing books.
+
 Display Borrowed Books: View a list of books currently borrowed by users.
+
 Display Overdue Books: List books that are overdue along with the applicable fines.
+
 Save and Load Data: Save book records to a file and load them upon startup.
 Implementation Details
+
 Data Structure
 The system uses a Doubly Linked List to manage book records. Each node in the list contains:
 
 Book Details: Book ID, Title, Author, ISBN, Publication Year, Borrowed Status, Borrowed Date.
+
 Pointers: next and prev pointers to navigate forward and backward through the list
+
 This structure allows efficient insertion and deletion of book records, as well as bidirectional traversal for flexible operations.
 
 File Management
